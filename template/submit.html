@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <title>Django</title>
+       
+        <style>
+            table{
+                border: 1px solid black;
+            }
+            th,td{
+                padding: 10px;
+                right: auto;
+            }
+            .center{
+                position: absolute;
+                left: 50%;
+                top:50%;
+                transform: translate(-50%,-50%);
+            }
+        </style>
+    </head>
+    <body> 
+
+
+
+        <form>
+            <table class="center">
+                <tr>
+                    <th colspan="2">
+                        <center><h3>Register</h3></center><HR>
+                    </th>
+                </tr>
+                <tr>
+                    <th>name</th>
+                    <td>{{name}}</td>
+                </tr>
+                <tr>
+                    <th>password</th>
+                    <td>{{password}}</td>
+                </tr>
+                <tr>
+                    <th>address</th>
+                    <td>{{address}}</td>
+                </tr>
+                <tr>
+                    <th>mail</th>
+                    <td>{{mail}}</td>
+                </tr>
+
+                
+                
+            </table>
+
+        </form>
+
+
+        
+
+    </body>
+</html>
